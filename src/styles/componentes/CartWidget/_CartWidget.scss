@@ -1,0 +1,22 @@
+.container__cart{
+    margin-top: 10px;
+    padding:10px;
+    .ico__cart{
+        font-size:30px!important;
+        vertical-align:middle;
+        display:inline-block;
+        margin-right:10px;
+        color:#fcaf17;
+    }
+    .count__cart{
+        background:#ff9c7d ;
+        color:#fff;
+        border-radius:50%;
+        width:20px;
+        height:20px;
+        text-align:center;
+        line-height:20px;
+        position: relative;
+        top:-4px;
+    }
+}
