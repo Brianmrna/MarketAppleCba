@@ -1,0 +1,497 @@
+[
+    {
+        "id": 1,
+        "nombre": "Iphone Xr",
+        "caracteristicas": {
+            "DimensionesYpeso": "150,0 x 75,7 x 8,3 mm, 194 gramos",
+            "Pantalla": "LCD IPS 6,1 pulgadas con True Tone Resolución de 1.792 por 828 píxeles a 326 ppp",
+            "Procesador": "A12 Bionic",
+            "MemoriaRAM": "3Gb",
+            "CamaraFrontal": "TrueDepth 7 megapíxeles f/2.2, soporte Face ID",
+            "CamaraTrasera": "12 megapíxeles, f/1.8, OIS, flash True Tone de cuatro LED",
+            "Bateria": "carga rápida, carga inalámbrica",
+            "Otros":"Dual SIM, iOS 14"
+        },
+        "almacenamientoInterno": {
+            "64Gb": {"precio":"400"},
+            "128Gb":{"precio": "450"},
+            "256Gb":{"precio": "500"}
+        },
+        "color": {
+            "negro": "/e-comerce-brian/public/products/1000/XR/base/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/XR/base/blanco.jpg",
+            "coral":"/e-comerce-brian/public/products/1000/XR/base/coral.jpg",
+            "rojo":"/e-comerce-brian/public/products/1000/XR/base/rojo.jpg"
+
+        },
+        "category": ["celular","iphone","xr"]
+    },
+    {
+        "id": 2,
+        "nombre": "Iphone 11",
+        "caracteristicas": {
+            "DimensionesYpeso": "150,9 x 75,7 x 8,3 mm194 g",
+            "Pantalla": "IPS LCD 6,1 pulgadas - 1792 x 828 px, 19.5:9 True-tone",
+            "Procesador": "Apple A13 Bionic, 7nm+ NPU Neural Engine de 3ª gen",
+            "MemoriaRAM": "4Gb",
+            "CamaraFrontal": "12MP, f/2.2, TOF 3D, slow-motion",
+            "CamaraTrasera": "Principal: 12MP, f/1.8, 26mm, OIS, QuadLED flash Secundaria gran angular: 12MP, f/2.4, 13mm, 120º Vídeo: 4K/60fps, 1080p/240fps, HDR",
+            "Bateria": "Carga rápida 18W e inalámbrica Qi",
+            "Otros":"WiFi 6, BT 5.0, NFC, GPS, dualSIM, eSIM, altavoces estéreo Dolby Atmos, reconocimiento facial, resistencia al agua IP68"
+        },
+        "almacenamientoInterno": {
+            "64Gb": {"precio":"450"},
+            "128Gb":{"precio": "500"},
+            "256Gb":{"precio": "550"}
+        },
+        "color": {
+            "negro": "/e-comerce-brian/public/products/1000/11/base/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/11/base/blanco.jpg",
+            "rojo":"/e-comerce-brian/public/products/1000/11/base/rojo.jpg"
+        },
+        "category": ["celular","iphone","11"]
+    },
+    {
+        "id": 3,
+        "nombre": "Iphone 11 pro",
+        "caracteristicas": {
+            "DimensionesYpeso": "144 x 71,4 x 8,1 mm (188 g)",
+            "Pantalla": "OLED 5,8 pulgadas Super Retina XDR / Resolución de 2.436 x 1.125 píxeles, 458 ppp",
+            "Procesador": "Chip A13 Bionic con arquitectura de 64 bits y 7 nm, Neural Engine",
+            "MemoriaRAM": "4Gb",
+            "CamaraFrontal": "12 megapíxeles, f/2.2, grabación 4K 60 FPS, Retina flash, vídeo cámara lenta 1080p a 120 FPS",
+            "CamaraTrasera": "12 + 12 + 12 MP gran angular (f/1.8), ultra gran angular (f/2.4) y teleobjetivo (f/2.0), doble OIS zoom óptico 2x, grabación 4K@24/30/60fps",
+            "Bateria": "3.179 mAh, Carga rápida (adaptador 18 W incluido)",
+            "Otros":""
+        },
+        "almacenamientoInterno": {
+            "64Gb": {"precio":"600"},
+            "256Gb":{"precio": "630"},
+            "512Gb":{"precio": "700"}
+        },
+        "color": {
+            "azul": "/e-comerce-brian/public/products/1000/11/pro/azul.jpg",
+            "grafito":"/e-comerce-brian/public/products/1000/11/pro/grafito.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/11/pro/plata.jpg"
+        },
+        "category": ["celular","iphone","11","pro"]
+    },
+    {
+        "id": 4,
+        "nombre": "Iphone 11 pro max",
+        "caracteristicas": {
+            "DimensionesYpeso": "158 x 77,8 x 8,1 mm (226 g)",
+            "Pantalla": "OLED 6,5 pulgadas Super Retina XDR / Resolución de 2.688 x 1.242 píxeles, 458 ppp",
+            "Procesador": "Chip A13 Bionic con arquitectura de 64 bits y 7 nm+, Neural Engine (3ª gen)",
+            "MemoriaRAM": "4Gb",
+            "CamaraFrontal": "12 megapíxeles, f/2.2, grabación 4K 60 FPS, Retina flash, vídeo cámara lenta 1080p a 120 FPS",
+            "CamaraTrasera": "12 + 12 + 12 MP gran angular (f/1.8), ultra gran angular (f/2.4) y teleobjetivo (f/2.0), doble OIS, zoom óptico 2x, grabación 4K@24/30/60fps",
+            "Bateria": "3.179 mAh, Carga rápida (adaptador 18 W incluido)",
+            "Otros":"FaceID, resistencia al agua IP68 (30 min a 4 m de profundidad), GLONASS, Galileo, carga rápida (adaptador 18 W incluido)"
+        },
+        "almacenamientoInterno": {
+            "64Gb": {"precio":"630"},
+            "256Gb":{"precio": "650"},
+            "512Gb":{"precio": "700"}
+        },
+        "color": {
+            "azul": "/e-comerce-brian/public/products/1000/11/pro-max/",
+            "grafito":"/e-comerce-brian/public/products/1000/11/pro/grafito.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/11/pro/plata.jpg"
+        },
+        "category": ["celular","iphone","11","pro-max"]
+    },
+    {
+        "id":5,
+        "nombre": "Iphone 12",
+        "caracteristicas": {
+            "DimensionesYpeso": "146,7 mm x 71,5 mm x 7,4mm / peso: 162g",
+            "Pantalla": "OLED Retina / 2.532 x 1.170 píxeles, Super Retina XDR, 19.5:9 / 460ppp /True-tone",
+            "Procesador": "Apple A14 Bionic, 5nm / NPU Neural Engine de 4ª gen",
+            "MemoriaRAM": "4Gb",
+            "CamaraFrontal": "12MP, f/2.2, TOF 3D, slow-motion",
+            "CamaraTrasera": "Principal: 12MP, f/1.6, OIS, QuadLED flash / Secundaria gran angular: 12MP, f/2.4 / Vídeo: 4K Dolby Vision, 1080p/240fps, HDR",
+            "Bateria": "Carga rápida 18W e inalámbrica MagSafe 15W",
+            "Otros":"WiFi 6, 5G, BT 5.0, NFC, GPS, dualSIM, eSIM, altavoces estéreo Dolby Atmos, reconocimiento facial, resistencia al agua IP68"
+        },
+        "almacenamientoInterno": {
+            "64Gb": {"precio":"640"},
+            "128Gb":{"precio": "670"},
+            "256Gb":{"precio": "700"}
+        },
+        "color": {
+            "negro":"/e-comerce-brian/public/products/1000/12/base/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/12/base/blanco.jpg",
+            "azul":"/e-comerce-brian/public/products/1000/12/base/azul.jpg",
+            "rojo": "/e-comerce-brian/public/products/1000/12/base/rojo.jpg"
+        },
+        "category": ["celular","iphone", "12"]
+    },
+    {
+        "id": 6,
+        "nombre": "Iphone 12 pro",
+        "caracteristicas": {
+            "DimensionesYpeso": "146,7 x 71,5 x 7,4 milímetros / 189 gramos",
+            "Pantalla": "Super Retina XDR OLED de 6,1 /Ratio 19.5:9 FullHD a 2.532 x 1.170 / HDR10 / 460 ppp",
+            "Procesador": "Apple A14",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12 megapíxeles f/2.2 / HDR",
+            "CamaraTrasera":"12 MP f/1.6 26mm OIS / 12 MP (tele) f/2.2 52mm OIS / 12 MP f/1.6 13mm ultra gran angular 120º / Cámara LiDAR / Vídeo 4K@60fps / Grabación en Dolby Vision / Cámara lenta frontal",
+            "Bateria": "Carga rápida hasta 20W (cargador no incluido) / MagSafe 15W / Carga Qi de 7,5W",
+            "Otros":"FaceID / Protección IP68"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "700"},
+            "256Gb":{"precio": "750"},
+            "512Gb":{"precio": "800"}
+        },
+        "color": {
+            "azul": "/e-comerce-brian/public/products/1000/12/pro/azul.jpg",
+            "grafito":"/e-comerce-brian/public/products/1000/12/pro/grafito.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/12/pro/plata.jpg"
+        },
+        "category": ["celular","iphone","12","pro"]
+    },
+    {
+        "id": 7,
+        "nombre": "Iphone 12 pro max",
+        "caracteristicas": {
+            "DimensionesYpeso": "160,8 x 78,1 x 7,4 milímetros / 228 gramos",
+            "Pantalla": "Super Retina XDR / OLED de 6,7 pulgadas / Ratio 19.5:9 / FullHD+ a 2.778 x 1.184 / HDR10 /458 ppp",
+            "Procesador": "Apple A14",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12 megapíxeles f/2.2 / HDR",
+            "CamaraTrasera": "12 MP f/1.6 26mm OIS / 12 MP (tele) f/2.0 52mm OIS / 12 MP f/1 / 6 13mm ultra gran angular 120º /Cámara LiDAR /Vídeo 4K@60fps / Grabación en Dolby Vision / Cámara lenta frontal",
+            "Bateria": "Carga rápida hasta 20W (cargador no incluido) / MagSafe 15W /Carga Qi de 7,5W",
+            "Otros":"FaceID Protección IP68"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "750"},
+            "256Gb":{"precio": "800"},
+            "512Gb":{"precio": "850"}
+        },
+        "color": {
+            "azul": "/e-comerce-brian/public/products/1000/12/pro-max/azul.jpg",
+            "grafito":"/e-comerce-brian/public/products/1000/12/pro-max/grafito.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/12/pro-max/plata.jpg"
+        },
+        "category": ["celular","iphone","12","pro-max"]
+    },
+    {
+        "id": 8,
+        "nombre": "Iphone 13",
+        "caracteristicas": {
+            "DimensionesYpeso": "146,7 mm x 71,5 mm x 7,6mm / 173g",
+            "Pantalla": "OLED Retina / 2.532 x 1.170 píxeles, Super Retina XDR, 19.5:9 / 460ppp / True-tone",
+            "Procesador": "Apple A15 Bionic, 5nm / NPU Neural Engine de 4ª gen",
+            "MemoriaRAM": "4Gb",
+            "CamaraFrontal": "12MP, f/2.2, TOF 3D, slow-motion",
+            "CamaraTrasera": "Principal: 12MP, f/1.6, OIS, QuadLED flash / Secundaria gran angular: 12MP, f/2.4 / Vídeo: 4K Dolby Vision, 1080p/240fps, HDR, modo cinemático",
+            "Bateria": "Carga rápida 18W e inalámbrica MagSafe 15W",
+            "Otros":"WiFi 6, 5G, BT 5.0, NFC, GPS, dualSIM, eSIM, altavoces estéreo Dolby Atmos, reconocimiento facial, resistencia al agua IP68"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "800"},
+            "256Gb":{"precio": "840"},
+            "512Gb":{"precio": "900"}
+        },
+        "color": {
+            "negro": "/e-comerce-brian/public/products/1000/13/base/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/13/base/blanco.jpg",
+            "azul":"/e-comerce-brian/public/products/1000/13/base/azul.jpg",
+            "rojo":"/e-comerce-brian/public/products/1000/13/base/rojo.jpg"
+
+        },
+        "category": ["celular","iphone", "13"]
+    },
+    {
+        "id": 9,
+        "nombre": "Iphone 13 pro",
+        "caracteristicas": {
+            "DimensionesYpeso": "146,7x71,5x7,65 mm / 204 gramos",
+            "Pantalla": "Super Retina XDR 6,1 pulgadas / ProMotion 120 Hz / 2.532 x / 1.170 px, 460 ppp / 1.000 nits, contraste 2.000.000:1",
+            "Procesador": "Apple A15 Bionic",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12 MP f/2.2",
+            "CamaraTrasera": "Telefoto: 12 MP f/2.8, 77mm, 3x óptico / Ultrawide: 12 / MP f/1.8, 6P, 120º / Principal: 12 MP f/1.5, 1,9um",
+            "Bateria": "Carga rápida 18W e inalámbrica MagSafe 15W / 3000mAh",
+            "Otros":"IP68 / Sonido estéreo/ FaceID"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "840"},
+            "256Gb":{"precio": "890"},
+            "512Gb":{"precio": "930"}
+        },
+        "color": {
+            "azul":"/e-comerce-brian/public/products/1000/13/pro/azul.jpg",
+            "grafito":"/e-comerce-brian/public/products/1000/13/pro/grafito.jpg",
+            "oro":"/e-comerce-brian/public/products/1000/13/pro/oro.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/13/pro/plata.jpg"
+        },
+        "category": ["celular","iphone", "13", "pro"]
+    },
+    {
+        "id": 10,
+        "nombre": "Iphone 13 pro max",
+        "caracteristicas": {
+            "DimensionesYpeso": "",
+            "Pantalla": "Super Retina XDR 6,7 pulgadas / ProMotion 120 Hz / 2.778 x 1.284 px, 458 ppp / 1.000 nits, contraste 2.000.000:1",
+            "Procesador": "Apple A15 Bionic",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12 MP f/2.2",
+            "CamaraTrasera": "Telefoto: 12 MP f/2.8, 77mm, 3x óptico / Ultrawide: 12 / MP f/1.8, 6P, 120º / Principal: 12 MP f/1.5, 1,9um",
+            "Bateria": "Carga rápida 18W e inalámbrica MagSafe 15W / 3670mAh",
+            "Otros":"IP68 / Sonido estéreo/ FaceID"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "940"},
+            "256Gb":{"precio": "1000"},
+            "512Gb":{"precio": "1090"}
+        },
+        "color": {
+            "azul":"/e-comerce-brian/public/products/1000/13/pro-max/azul.jpg",
+            "grafito":"/e-comerce-brian/public/products/1000/13/pro-max/grafito.jpg",
+            "oro":"/e-comerce-brian/public/products/1000/13/pro-max/oro.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/13/pro-max/plata.jpg"
+        },
+        "category": ["celular","iphone", "13", "pro-max"]
+    },
+    {
+        "id": 11,
+        "nombre": "Iphone 14",
+        "caracteristicas": {
+            "DimensionesYpeso": "146,7 x 71,5 x 7,8 mm / 172 g",
+            "Pantalla": "Super Retina XDR OLED 6,1 pulgadas / 2.532 x 1.170 píxeles (460 ppp)",
+            "Procesador": "Apple A15 Bionic",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12MP f/1.9, AF, True Depth",
+            "CamaraTrasera": "Principal: 12 MP f/1.5 (1.9 μm) / Gran angular: 12 MP f/2.4",
+            "Bateria": "3300mAh / Carga rápida 18W e inalámbrica / MagSafe 15W",
+            "Otros":"Resistencia IP68 / Reconocimiento facial / Emergencia SOS / Detección de accidentes"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "1100"},
+            "256Gb":{"precio": "1150"},
+            "512Gb":{"precio": "1200"}
+        },
+        "color": {
+            "negro": "/e-comerce-brian/public/products/1000/14/base/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/14/base/blanco.jpg",
+            "azul":"/e-comerce-brian/public/products/1000/14/base/azul.jpg",
+            "rojo":"/e-comerce-brian/public/products/1000/14/base/rojo.jpg"
+        },
+        "category": ["celular","iphone", "14"]
+    },
+    {
+        "id": 12,
+        "nombre": "Iphone 14 pro",
+        "caracteristicas": {
+            "DimensionesYpeso": "147,5 x 71,5 x 7,85 mm / 206 g",
+            "Pantalla": "Super Retina XDR 6,1 pulgadas / ProMotion 120 Hz / 2.532 x 1.170 px, 460 ppp / 2.000 nits, contraste 2.000.000:1",
+            "Procesador": "Apple A16 Bionic",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12 MP f/2.2",
+            "CamaraTrasera": "Principal: 48 MP f/1.5, 1,9um / Ultra gran angular: 12 MP f/1.8, 6P, 120º /Telefoto: 12 MP",
+            "Bateria": "3.200 mAh / Carga rápida 18W e inalámbrica / MagSafe 15W",
+            "Otros":"Resistencia IP68 / Reconocimiento facial / Emergencia SOS / Detección de accidentes"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "1210"},
+            "256Gb":{"precio": "1250"},
+            "512Gb":{"precio": "1300"}
+        },
+        "color": {
+            "negro": "/e-comerce-brian/public/products/1000/14/pro/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/14/pro/blanco.jpg",
+            "morado":"/e-comerce-brian/public/products/1000/14/pro/morado.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/14/pro/plata.jpg"
+        },
+        "category": ["celular","iphone", "14", "pro"]
+    },
+    {
+        "id": 13,
+        "nombre": "Iphone 14 pro max",
+        "caracteristicas": {
+            "DimensionesYpeso": "160,7 x 77,6 x 7,85 mm / 240 g",
+            "Pantalla": "Super Retina XDR 6,7 pulgadas / ProMotion 120 Hz / 2.778 x 1.284 px, 458 ppp / 2.000 nits, contraste 2.000.000:1",
+            "Procesador": "Apple A16 Bionic",
+            "MemoriaRAM": "6Gb",
+            "CamaraFrontal": "12 MP f/2.2",
+            "CamaraTrasera": "Principal: 48 MP f/1.5, 1,9um / Ultra gran angular: 12 MP f/1.8, 6P, 120º / Telefoto: 12 MP",
+            "Bateria": "4323mAh / Carga rápida 18W e inalámbrica / MagSafe 15W",
+            "Otros":"Resistencia IP68 / Reconocimiento facial / Emergencia SOS / Detección de accidentes"
+        },
+        "almacenamientoInterno": {
+            "128Gb":{"precio": "1310"},
+            "256Gb":{"precio": "1350"},
+            "512Gb":{"precio": "1400"}
+        },
+        "color": {
+            "negro": "/e-comerce-brian/public/products/1000/14/pro-max/negro.jpg",
+            "blanco":"/e-comerce-brian/public/products/1000/14/pro-max/blanco.jpg",
+            "morado":"/e-comerce-brian/public/products/1000/14/pro-max/morado.jpg",
+            "plata":"/e-comerce-brian/public/products/1000/14/pro-max/plata.jpg"
+        },
+        "category": ["celular","iphone","14", "pro-max"]
+    },
+    {
+        "id": 14,
+        "nombre": "MacBook Air M1",
+        "caracteristicas": {
+            "Tipo": "M1 Air (2021)",
+            "Procesador": "Apple M1 Chip, Octa Core i9 - 3.8 GHz",
+            "Gráficos": "Intel Iris Plus Graphics 16GB",
+            "Almacenamiento": "SSD Apple M1 Max 2TB",
+            "Pantalla": "Retina XDR OLED FHD + HDR10 / IPS de 13,3 pulgadas / Resolución 2.560 x 1.600 píxeles", 
+            "Puertos": "DisplayPort / 2 x Thunderbolt / USB 4 / jack de auriculares",
+            "Conectividad": "Wifi 6 / Bluetooth 5.0",
+            "Bateria": "49,9 Wh / Hasta 18 horas de reproducción de vídeo / Hasta 15 horas de navegación"
+        },
+        "img":{
+            "1":"/e-comerce-brian/public/products/2000/Air/M1/1.jpg",
+            "2":"/e-comerce-brian/public/products/2000/Air/M1/2.jpg",
+            "3":"/e-comerce-brian/public/products/2000/Air/M1/3.jpg",
+            "4":"/e-comerce-brian/public/products/2000/Air/M1/4.jpg"
+        },
+        "precio":"1610",
+        "categoria":["computadora","air","macbook","m1"]
+    },
+    {
+        "id": 15,
+        "nombre": "MacBook Air M2",
+        "caracteristicas": {
+            "Tipo": "M2 Air (2022)",
+            "Procesador": "Apple M2 con 8 núcleos de CPU (4 de alto rendimiento y 4 de alta eficiencia), 8 núcleos de GPU, Neural Engine de 16 núcleos y 100 GB/s de ancho de banda de memoria",
+            "Gráficos": "Intel Iris Plus Graphics 16GB",
+            "Almacenamiento": "SSD Apple M2 Max 2TB",
+            "Pantalla": "LCD IPS Liquid Retina de 13,6 pulgadas (2.560 x 1.664 puntos), 500 nits y tecnología de reproducción del color True Tone", 
+            "Puertos": "DisplayPort / 2 x Thunderbolt / USB 4 / jack de auriculares",
+            "Conectividad": "Wifi 6 / Bluetooth 5.0",
+            "Bateria": "49,9 Wh / Hasta 18 horas de reproducción de vídeo / Hasta 15 horas de navegación"
+        },
+        "img":{
+            "1":"/e-comerce-brian/public/products/2000/Air/M2/1.jpg",
+            "2":"/e-comerce-brian/public/products/2000/Air/M2/2.jpg",
+            "3":"/e-comerce-brian/public/products/2000/Air/M2/3.jpg",
+            "4":"/e-comerce-brian/public/products/2000/Air/M2/4.jpg"
+        },
+        "precio":"1740",
+        "categoria":["computadora","air","macbook", "m2"]
+    },
+    {
+        "id": 16,
+        "nombre": "MacBook Pro M1",
+        "caracteristicas": {
+            "Tipo": "M1 Pro (2021)",
+            "Procesador": "Chip M1 de Apple / Ocho núcleos (4 x alto rendimiento, 4 x eficiencia) / Neural engine de 16 núcleos",
+            "Gráficos": "-",
+            "Almacenamiento":"SSD de 256 GB, 512 GB, 1 TB o 2 TB",
+            "Pantalla": "13,3 pulgadas / 2.560 x 1.600 píxeles (227 ppp) / 500 nits / True Tone",
+            "Puertos": "2 x Thunderbolt / USB 4 (USB-C) / Conector de auriculares",
+            "Conectividad": "Wifi 6 / Bluetooth 5.0",
+            "Bateria": "55 Wh / Hasta 20 horas de reproducción de vídeo / Hasta 18 horas de navegación"
+        },
+        "img":{
+            "1":"/e-comerce-brian/public/products/2000/Pro/M1/1.jpg",
+            "2":"/e-comerce-brian/public/products/2000/Pro/M1/2.jpg",
+            "3":"/e-comerce-brian/public/products/2000/Pro/M1/3.jpg",
+            "4":"/e-comerce-brian/public/products/2000/Pro/M1/4.jpg"
+        },
+        "precio":"1830",
+        "categoria":["computadora","pro","macbook", "m1"]
+    },
+    {
+        "id": 17,
+        "nombre": "MacBook Pro M2",
+        "caracteristicas": {
+            "Tipo": "M2 Pro (2022)",
+            "Procesador":"Chip M2 Max de Apple(CPU de 12 núcleos, GPU de 38 núcleos, 400 GB/s de ancho de banda de memoria)",
+            "Gráficos":"-",
+            "Almacenamiento":"2/4/8 Tb",
+            "Pantalla": "Liquid Retina XDR / 16,2 pulgadas, 3.456 x 2.234 píxeles (254 ppp) / 1.600 nits de brillo máximo / Contraste 1.000.000:1 / Tecnología ProMotion 120 Hz",
+            "Puertos": "3 x USB-C (TB4) / 1 x HDMI / 1 x MagSafe 3 / Lector de tarjetas SDXC / Puerto de auriculares",
+            "Conectividad":"Wifi 6E / Bluetooth 5.3",
+            "Bateria": "100 Wh / Adaptador USB-C de 140 W / Cable de USB-C a MagSafe3 / Carga rápida",
+        },
+        "img":{
+            "1":"/e-comerce-brian/public/products/2000/Pro/M2/1.jpg",
+            "2":"/e-comerce-brian/public/products/2000/Pro/M2/2.jpg",
+            "3":"/e-comerce-brian/public/products/2000/Pro/M2/3.jpg",
+            "4":"/e-comerce-brian/public/products/2000/Pro/M2/4.jpg"
+        },     
+        "precio":"2999",
+        "categoria":["computadora","pro","macbook", "m2"]
+    },
+    {
+        "id": "18",
+        "nombre": "Apple Watch Serie 7",
+        "caracteristicas": {
+            "Caja": "41 o 45mm",
+            "Dimensiones": "(Aluminio) 40,9 x 34,8 x 10,7 mm, 32 g / 45,08 x 38,21 x 10,7 mm, 38,8 g",
+            "Pantalla": "41 mm: Ion-X glass (LTPO) OLED Always-On Retina display / 1000 nits / 352 x 430 px",
+            "Procesador": "S7 64-bit dual-core",
+            "Almacenamiento": "32Gb",
+            "Conectividad":"Wi-Fi (802.11b/g/n 2.4GHz, 5 GHz) W3 wireless chip U1 / Bluetooth 5.0",
+            "Sensores":"SpO2 / Ritmo cardiaco, ECG / Acelerómetro / Giroscopio / Altímetro / GPS/GNSS / Brújula / Sensor de luz ambiental / Oxígeno en sangre / Pulsaciones (óptico)",
+            "Bateria": "Hasta 18hs, Carga rapida",
+            "Otros":"Función llamada de emergencia, detección de caídas, IPS6X. Resiste 50m bajo el agua"
+        },
+        "img":{
+            "1":"/e-comerce-brian/public/products/3000/Serie-7/azul.jpg",
+            "2":"/e-comerce-brian/public/products/3000/Serie-7/blanco.jpg",
+            "3":"/e-comerce-brian/public/products/3000/Serie-7/rojo.jpg",
+            "4":"/e-comerce-brian/public/products/3000/Serie-7/verde.jpg"
+        },
+        "precio":"200",
+        "categoria":["applewatch", "reloj", "Serie", "7"],
+    },
+    {
+        "id": "19",
+        "nombre": "Apple Watch Serie 8",
+        "caracteristicas": {
+            "Caja": "41 o 45mm",
+            "Dimensiones": "(Aluminio) 40,9 x 34,8 x 10,7 mm, 32 g / 45,08 x 38,21 x 10,7 mm, 38,8 g",
+            "Pantalla": "41 mm: Ion-X glass (LTPO) OLED Always-On Retina display / 1000 nits / 352 x 430 px",
+            "Procesador": "S7 64-bit dual-core",
+            "Almacenamiento": "32Gb",
+            "Conectividad":"Wi-Fi (802.11b/g/n 2.4GHz, 5 GHz) W3 wireless chip U1 / Bluetooth 5.0",
+            "Sensores":"SpO2 / Ritmo cardiaco, ECG / Acelerómetro / Giroscopio / Altímetro / GPS/GNSS / Brújula / Sensor de luz ambiental / Oxígeno en sangre / Pulsaciones (óptico)",
+            "Bateria": "Hasta 18hs, Carga rapida",
+            "Otros":"Función llamada de emergencia, detección de caídas, IPS6X. Resiste 50m bajo el agua"
+        },
+        "img":{
+            "1":"/e-comerce-brian/public/products/3000/Serie-8/negro.jpg",
+            "2":"/e-comerce-brian/public/products/3000/Serie-8/blanco.jpg",
+            "3":"/e-comerce-brian/public/products/3000/Serie-7/rojo.jpg",
+            "4":"/e-comerce-brian/public/products/3000/Serie-8/estelar.jpg"
+        },
+        "precio":"250",
+        "categoria":["applewatch", "reloj", "Serie", "8"],
+    },
+    {
+        "id": "20",
+        "nombre": "Cargador",
+        "descripcion": " Cargador carga rapida de 20W, Sin cable",
+        "img":{
+            "1":"/e-comerce-brian/public/products/4000/cargador/1.jpg",
+            "2":"/e-comerce-brian/public/products/4000/cargador/2.jpg",
+            "3":"/e-comerce-brian/public/products/4000/cargador/3.jpg",
+            "4":"/e-comerce-brian/public/products/4000/cargador/4.jpg"
+        },
+        "precio":"50",
+        "categoria":["accesorios","cargadores"]
+    },
+    {
+        "id": "21",
+        "nombre": "Cable lightning 1m",
+        "descripcion": "1 cable Usb tipo c a lightning de 1 m",
+        "img":{
+            "1":"/e-comerce-brian/public/products/4000/cable/1.jpg",
+            "2":"/e-comerce-brian/public/products/4000/cable/2.jpg"
+        },
+        "precio":"20",
+        "categoria":["accesorios","cables"]
+    }
+
+
+]
