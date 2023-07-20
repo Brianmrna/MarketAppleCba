@@ -13,15 +13,15 @@
             "Otros":"Dual SIM, iOS 14"
         },
         "almacenamientoInterno": {
-            "64Gb": {"precio":"400"},
+            "precioBase":"400",
             "128Gb":{"precio": "450"},
             "256Gb":{"precio": "500"}
         },
         "color": {
-            "negro": "/e-comerce-brian/public/products/1000/XR/base/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/XR/base/blanco.jpg",
-            "coral":"/e-comerce-brian/public/products/1000/XR/base/coral.jpg",
-            "rojo":"/e-comerce-brian/public/products/1000/XR/base/rojo.jpg"
+            "coral":"/public/products/1000/XR/base/coral.jpg",
+            "negro": "/public/products/1000/XR/base/negro.jpg",
+            "blanco":"/public/products/1000/XR/base/blanco.jpg",
+            "rojo":"/public/products/1000/XR/base/rojo.jpg"
 
         },
         "category": ["celular","iphone","xr"]
@@ -40,14 +40,14 @@
             "Otros":"WiFi 6, BT 5.0, NFC, GPS, dualSIM, eSIM, altavoces estéreo Dolby Atmos, reconocimiento facial, resistencia al agua IP68"
         },
         "almacenamientoInterno": {
-            "64Gb": {"precio":"450"},
+            "precioBase":"450",
             "128Gb":{"precio": "500"},
             "256Gb":{"precio": "550"}
         },
         "color": {
-            "negro": "/e-comerce-brian/public/products/1000/11/base/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/11/base/blanco.jpg",
-            "rojo":"/e-comerce-brian/public/products/1000/11/base/rojo.jpg"
+            "blanco":"/public/products/1000/11/base/blanco.jpg",
+            "negro": "/public/products/1000/11/base/negro.jpg",
+            "rojo":"/public/products/1000/11/base/rojo.jpg"
         },
         "category": ["celular","iphone","11"]
     },
@@ -65,16 +65,16 @@
             "Otros":""
         },
         "almacenamientoInterno": {
-            "64Gb": {"precio":"600"},
+            "precioBase":"600",
             "256Gb":{"precio": "630"},
             "512Gb":{"precio": "700"}
         },
         "color": {
-            "azul": "/e-comerce-brian/public/products/1000/11/pro/azul.jpg",
-            "grafito":"/e-comerce-brian/public/products/1000/11/pro/grafito.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/11/pro/plata.jpg"
+            "azul": "/public/products/1000/11/pro/azul.jpg",
+            "grafito":"/public/products/1000/11/pro/grafito.jpg",
+            "plata":"/public/products/1000/11/pro/plata.jpg"
         },
-        "category": ["celular","iphone","11","pro"]
+        "category": ["celular","iphone","11", "pro"]
     },
     {
         "id": 4,
@@ -90,16 +90,16 @@
             "Otros":"FaceID, resistencia al agua IP68 (30 min a 4 m de profundidad), GLONASS, Galileo, carga rápida (adaptador 18 W incluido)"
         },
         "almacenamientoInterno": {
-            "64Gb": {"precio":"630"},
+            "precioBase":"630",
             "256Gb":{"precio": "650"},
             "512Gb":{"precio": "700"}
         },
-        "color": {
-            "azul": "/e-comerce-brian/public/products/1000/11/pro-max/",
-            "grafito":"/e-comerce-brian/public/products/1000/11/pro/grafito.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/11/pro/plata.jpg"
+        "color": { 
+            "grafito":"/public/products/1000/11/pro/grafito.jpg",
+            "azul": "/public/products/1000/11/pro-max/azul.jpg",
+            "plata":"/public/products/1000/11/pro/plata.jpg"
         },
-        "category": ["celular","iphone","11","pro-max"]
+        "category": ["celular","iphone","11", "pro","promax"]
     },
     {
         "id":5,
@@ -115,17 +115,18 @@
             "Otros":"WiFi 6, 5G, BT 5.0, NFC, GPS, dualSIM, eSIM, altavoces estéreo Dolby Atmos, reconocimiento facial, resistencia al agua IP68"
         },
         "almacenamientoInterno": {
-            "64Gb": {"precio":"640"},
+            "precioBase":"640",
             "128Gb":{"precio": "670"},
             "256Gb":{"precio": "700"}
         },
         "color": {
-            "negro":"/e-comerce-brian/public/products/1000/12/base/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/12/base/blanco.jpg",
-            "azul":"/e-comerce-brian/public/products/1000/12/base/azul.jpg",
-            "rojo": "/e-comerce-brian/public/products/1000/12/base/rojo.jpg"
+            "rojo": "/public/products/1000/12/base/rojo.jpg",
+            "negro":"/public/products/1000/12/base/negro.jpg",
+            "blanco":"/public/products/1000/12/base/blanco.jpg",
+            "azul":"/public/products/1000/12/base/azul.jpg"
+            
         },
-        "category": ["celular","iphone", "12"]
+        "category": ["celular","iphone","12"]
     },
     {
         "id": 6,
@@ -141,16 +142,17 @@
             "Otros":"FaceID / Protección IP68"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "700"},
+            "precioBase": "700",
             "256Gb":{"precio": "750"},
             "512Gb":{"precio": "800"}
         },
         "color": {
-            "azul": "/e-comerce-brian/public/products/1000/12/pro/azul.jpg",
-            "grafito":"/e-comerce-brian/public/products/1000/12/pro/grafito.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/12/pro/plata.jpg"
+            "plata":"/public/products/1000/12/pro/plata.jpg",
+            "azul": "/public/products/1000/12/pro/azul.jpg",
+            "grafito":"/public/products/1000/12/pro/grafito.jpg"
+            
         },
-        "category": ["celular","iphone","12","pro"]
+        "category": ["celular","iphone","12", "pro"]
     },
     {
         "id": 7,
@@ -166,16 +168,16 @@
             "Otros":"FaceID Protección IP68"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "750"},
+            "precioBase": "750",
             "256Gb":{"precio": "800"},
             "512Gb":{"precio": "850"}
         },
         "color": {
-            "azul": "/e-comerce-brian/public/products/1000/12/pro-max/azul.jpg",
-            "grafito":"/e-comerce-brian/public/products/1000/12/pro-max/grafito.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/12/pro-max/plata.jpg"
+            "azul": "/public/products/1000/12/pro-max/azul.jpg",
+            "grafito":"/public/products/1000/12/pro-max/grafito.jpg",
+            "plata":"/public/products/1000/12/pro-max/plata.jpg"
         },
-        "category": ["celular","iphone","12","pro-max"]
+        "category": ["celular","iphone","12", "pro", "promax"]
     },
     {
         "id": 8,
@@ -191,18 +193,18 @@
             "Otros":"WiFi 6, 5G, BT 5.0, NFC, GPS, dualSIM, eSIM, altavoces estéreo Dolby Atmos, reconocimiento facial, resistencia al agua IP68"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "800"},
+            "precioBase": "800",
             "256Gb":{"precio": "840"},
             "512Gb":{"precio": "900"}
         },
         "color": {
-            "negro": "/e-comerce-brian/public/products/1000/13/base/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/13/base/blanco.jpg",
-            "azul":"/e-comerce-brian/public/products/1000/13/base/azul.jpg",
-            "rojo":"/e-comerce-brian/public/products/1000/13/base/rojo.jpg"
+            "negro": "/public/products/1000/13/base/negro.jpg",
+            "blanco":"/public/products/1000/13/base/blanco.jpg",
+            "azul":"/public/products/1000/13/base/azul.jpg",
+            "rojo":"/public/products/1000/13/base/rojo.jpg"
 
         },
-        "category": ["celular","iphone", "13"]
+        "category": ["celular","iphone","13"]
     },
     {
         "id": 9,
@@ -218,17 +220,17 @@
             "Otros":"IP68 / Sonido estéreo/ FaceID"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "840"},
+            "precioBase": "840",
             "256Gb":{"precio": "890"},
             "512Gb":{"precio": "930"}
         },
         "color": {
-            "azul":"/e-comerce-brian/public/products/1000/13/pro/azul.jpg",
-            "grafito":"/e-comerce-brian/public/products/1000/13/pro/grafito.jpg",
-            "oro":"/e-comerce-brian/public/products/1000/13/pro/oro.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/13/pro/plata.jpg"
+             "oro":"/public/products/1000/13/pro/oro.jpg",
+            "azul":"/public/products/1000/13/pro/azul.jpg",
+            "grafito":"/public/products/1000/13/pro/grafito.jpg",
+            "plata":"/public/products/1000/13/pro/plata.jpg"
         },
-        "category": ["celular","iphone", "13", "pro"]
+        "category": ["celular","iphone","13", "pro"]
     },
     {
         "id": 10,
@@ -244,17 +246,18 @@
             "Otros":"IP68 / Sonido estéreo/ FaceID"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "940"},
+            "precioBase": "940",
             "256Gb":{"precio": "1000"},
             "512Gb":{"precio": "1090"}
         },
         "color": {
-            "azul":"/e-comerce-brian/public/products/1000/13/pro-max/azul.jpg",
-            "grafito":"/e-comerce-brian/public/products/1000/13/pro-max/grafito.jpg",
-            "oro":"/e-comerce-brian/public/products/1000/13/pro-max/oro.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/13/pro-max/plata.jpg"
+             "plata":"/public/products/1000/13/pro-max/plata.jpg",
+             "azul":"/public/products/1000/13/pro-max/azul.jpg",
+            "grafito":"/public/products/1000/13/pro-max/grafito.jpg",
+            "oro":"/public/products/1000/13/pro-max/oro.jpg"
+           
         },
-        "category": ["celular","iphone", "13", "pro-max"]
+        "category": ["celular","iphone","13","pro","promax"]
     },
     {
         "id": 11,
@@ -270,17 +273,17 @@
             "Otros":"Resistencia IP68 / Reconocimiento facial / Emergencia SOS / Detección de accidentes"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "1100"},
+            "precioBase": "1100",
             "256Gb":{"precio": "1150"},
             "512Gb":{"precio": "1200"}
         },
         "color": {
-            "negro": "/e-comerce-brian/public/products/1000/14/base/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/14/base/blanco.jpg",
-            "azul":"/e-comerce-brian/public/products/1000/14/base/azul.jpg",
-            "rojo":"/e-comerce-brian/public/products/1000/14/base/rojo.jpg"
+            "negro": "/public/products/1000/14/base/negro.jpg",
+            "blanco":"/public/products/1000/14/base/blanco.jpg",
+            "azul":"/public/products/1000/14/base/azul.jpg",
+            "rojo":"/public/products/1000/14/base/rojo.jpg"
         },
-        "category": ["celular","iphone", "14"]
+        "category": ["celular","iphone","14"]
     },
     {
         "id": 12,
@@ -296,17 +299,17 @@
             "Otros":"Resistencia IP68 / Reconocimiento facial / Emergencia SOS / Detección de accidentes"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "1210"},
+            "precioBase": "1210",
             "256Gb":{"precio": "1250"},
             "512Gb":{"precio": "1300"}
         },
         "color": {
-            "negro": "/e-comerce-brian/public/products/1000/14/pro/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/14/pro/blanco.jpg",
-            "morado":"/e-comerce-brian/public/products/1000/14/pro/morado.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/14/pro/plata.jpg"
+            "morado":"/public/products/1000/14/pro/morado.jpg",
+            "negro": "/public/products/1000/14/pro/negro.jpg",
+            "blanco":"/public/products/1000/14/pro/blanco.jpg",
+            "plata":"/public/products/1000/14/pro/plata.jpg"
         },
-        "category": ["celular","iphone", "14", "pro"]
+        "category": ["celular","iphone","13","pro"]
     },
     {
         "id": 13,
@@ -322,17 +325,17 @@
             "Otros":"Resistencia IP68 / Reconocimiento facial / Emergencia SOS / Detección de accidentes"
         },
         "almacenamientoInterno": {
-            "128Gb":{"precio": "1310"},
+            "precioBase": "1310",
             "256Gb":{"precio": "1350"},
             "512Gb":{"precio": "1400"}
         },
         "color": {
-            "negro": "/e-comerce-brian/public/products/1000/14/pro-max/negro.jpg",
-            "blanco":"/e-comerce-brian/public/products/1000/14/pro-max/blanco.jpg",
-            "morado":"/e-comerce-brian/public/products/1000/14/pro-max/morado.jpg",
-            "plata":"/e-comerce-brian/public/products/1000/14/pro-max/plata.jpg"
+            "negro": "/public/products/1000/14/pro-max/negro.jpg",
+            "blanco":"/public/products/1000/14/pro-max/blanco.jpg",
+            "morado":"/public/products/1000/14/pro-max/morado.jpg",
+            "plata":"/public/products/1000/14/pro-max/plata.jpg"
         },
-        "category": ["celular","iphone","14", "pro-max"]
+        "category": ["celular","iphone","13","pro","promax"]
     },
     {
         "id": 14,
@@ -348,13 +351,13 @@
             "Bateria": "49,9 Wh / Hasta 18 horas de reproducción de vídeo / Hasta 15 horas de navegación"
         },
         "img":{
-            "1":"/e-comerce-brian/public/products/2000/Air/M1/1.jpg",
-            "2":"/e-comerce-brian/public/products/2000/Air/M1/2.jpg",
-            "3":"/e-comerce-brian/public/products/2000/Air/M1/3.jpg",
-            "4":"/e-comerce-brian/public/products/2000/Air/M1/4.jpg"
+            "1":"/public/products/2000/Air/M1/1.jpg",
+            "2":"/public/products/2000/Air/M1/2.jpg",
+            "3":"/public/products/2000/Air/M1/3.jpg",
+            "4":"/public/products/2000/Air/M1/4.jpg"
         },
         "precio":"1610",
-        "categoria":["computadora","air","macbook","m1"]
+        "category":["computadora","air","macbook","m1"]
     },
     {
         "id": 15,
@@ -370,13 +373,13 @@
             "Bateria": "49,9 Wh / Hasta 18 horas de reproducción de vídeo / Hasta 15 horas de navegación"
         },
         "img":{
-            "1":"/e-comerce-brian/public/products/2000/Air/M2/1.jpg",
-            "2":"/e-comerce-brian/public/products/2000/Air/M2/2.jpg",
-            "3":"/e-comerce-brian/public/products/2000/Air/M2/3.jpg",
-            "4":"/e-comerce-brian/public/products/2000/Air/M2/4.jpg"
+            "1":"/public/products/2000/Air/M2/1.jpg",
+            "2":"/public/products/2000/Air/M2/2.jpg",
+            "3":"/public/products/2000/Air/M2/3.jpg",
+            "4":"/public/products/2000/Air/M2/4.jpg"
         },
         "precio":"1740",
-        "categoria":["computadora","air","macbook", "m2"]
+        "category":["computadora","air","macbook", "m2"]
     },
     {
         "id": 16,
@@ -392,13 +395,13 @@
             "Bateria": "55 Wh / Hasta 20 horas de reproducción de vídeo / Hasta 18 horas de navegación"
         },
         "img":{
-            "1":"/e-comerce-brian/public/products/2000/Pro/M1/1.jpg",
-            "2":"/e-comerce-brian/public/products/2000/Pro/M1/2.jpg",
-            "3":"/e-comerce-brian/public/products/2000/Pro/M1/3.jpg",
-            "4":"/e-comerce-brian/public/products/2000/Pro/M1/4.jpg"
+            "1":"/public/products/2000/Pro/M1/1.jpg",
+            "2":"/public/products/2000/Pro/M1/2.jpg",
+            "3":"/public/products/2000/Pro/M1/3.jpg",
+            "4":"/public/products/2000/Pro/M1/4.jpg"
         },
         "precio":"1830",
-        "categoria":["computadora","pro","macbook", "m1"]
+        "category":["computadora","pro","macbook", "m1"]
     },
     {
         "id": 17,
@@ -411,16 +414,16 @@
             "Pantalla": "Liquid Retina XDR / 16,2 pulgadas, 3.456 x 2.234 píxeles (254 ppp) / 1.600 nits de brillo máximo / Contraste 1.000.000:1 / Tecnología ProMotion 120 Hz",
             "Puertos": "3 x USB-C (TB4) / 1 x HDMI / 1 x MagSafe 3 / Lector de tarjetas SDXC / Puerto de auriculares",
             "Conectividad":"Wifi 6E / Bluetooth 5.3",
-            "Bateria": "100 Wh / Adaptador USB-C de 140 W / Cable de USB-C a MagSafe3 / Carga rápida",
+            "Bateria": "100 Wh / Adaptador USB-C de 140 W / Cable de USB-C a MagSafe3 / Carga rápida"
         },
         "img":{
-            "1":"/e-comerce-brian/public/products/2000/Pro/M2/1.jpg",
-            "2":"/e-comerce-brian/public/products/2000/Pro/M2/2.jpg",
-            "3":"/e-comerce-brian/public/products/2000/Pro/M2/3.jpg",
-            "4":"/e-comerce-brian/public/products/2000/Pro/M2/4.jpg"
+            "1":"/public/products/2000/Pro/M2/1.jpg",
+            "2":"/public/products/2000/Pro/M2/2.jpg",
+            "3":"/public/products/2000/Pro/M2/3.jpg",
+            "4":"/public/products/2000/Pro/M2/4.jpg"
         },     
         "precio":"2999",
-        "categoria":["computadora","pro","macbook", "m2"]
+        "category":["computadora","pro","macbook", "m2"]
     },
     {
         "id": "18",
@@ -437,13 +440,13 @@
             "Otros":"Función llamada de emergencia, detección de caídas, IPS6X. Resiste 50m bajo el agua"
         },
         "img":{
-            "1":"/e-comerce-brian/public/products/3000/Serie-7/azul.jpg",
-            "2":"/e-comerce-brian/public/products/3000/Serie-7/blanco.jpg",
-            "3":"/e-comerce-brian/public/products/3000/Serie-7/rojo.jpg",
-            "4":"/e-comerce-brian/public/products/3000/Serie-7/verde.jpg"
+            "1":"/public/products/3000/Serie-7/azul.jpg",
+            "2":"/public/products/3000/Serie-7/blanco.jpg",
+            "3":"/public/products/3000/Serie-7/rojo.jpg",
+            "4":"/public/products/3000/Serie-7/verde.jpg"
         },
         "precio":"200",
-        "categoria":["applewatch", "reloj", "Serie", "7"],
+        "category":["applewatch", "reloj", "Serie", "7"]
     },
     {
         "id": "19",
@@ -460,37 +463,37 @@
             "Otros":"Función llamada de emergencia, detección de caídas, IPS6X. Resiste 50m bajo el agua"
         },
         "img":{
-            "1":"/e-comerce-brian/public/products/3000/Serie-8/negro.jpg",
-            "2":"/e-comerce-brian/public/products/3000/Serie-8/blanco.jpg",
-            "3":"/e-comerce-brian/public/products/3000/Serie-7/rojo.jpg",
-            "4":"/e-comerce-brian/public/products/3000/Serie-8/estelar.jpg"
+            "1":"/public/products/3000/Serie-8/negro.jpg",
+            "2":"/public/products/3000/Serie-8/blanco.jpg",
+            "3":"/public/products/3000/Serie-7/rojo.jpg",
+            "4":"/public/products/3000/Serie-8/estelar.jpg"
         },
         "precio":"250",
-        "categoria":["applewatch", "reloj", "Serie", "8"],
+        "category":["applewatch", "reloj", "Serie", "8"]
     },
     {
         "id": "20",
         "nombre": "Cargador",
-        "descripcion": " Cargador carga rapida de 20W, Sin cable",
+        "caracteristicas": " Cargador carga rapida de 20W, Sin cable",
         "img":{
-            "1":"/e-comerce-brian/public/products/4000/cargador/1.jpg",
-            "2":"/e-comerce-brian/public/products/4000/cargador/2.jpg",
-            "3":"/e-comerce-brian/public/products/4000/cargador/3.jpg",
-            "4":"/e-comerce-brian/public/products/4000/cargador/4.jpg"
+            "1":"/public/products/4000/cargador/1.jpg",
+            "2":"/public/products/4000/cargador/2.jpg",
+            "3":"/public/products/4000/cargador/3.jpg",
+            "4":"/public/products/4000/cargador/4.jpg"
         },
         "precio":"50",
-        "categoria":["accesorios","cargadores"]
+        "category":["accesorios","cargadores"]
     },
     {
         "id": "21",
         "nombre": "Cable lightning 1m",
-        "descripcion": "1 cable Usb tipo c a lightning de 1 m",
+        "caracteristicas": "1 cable Usb tipo c a lightning de 1 m",
         "img":{
-            "1":"/e-comerce-brian/public/products/4000/cable/1.jpg",
-            "2":"/e-comerce-brian/public/products/4000/cable/2.jpg"
+            "1":"/public/products/4000/cable/1.jpg",
+            "2":"/public/products/4000/cable/2.jpg"
         },
         "precio":"20",
-        "categoria":["accesorios","cables"]
+        "category":["accesorios","cables"]
     }
 
 

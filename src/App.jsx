@@ -1,7 +1,8 @@
 import './styles/styles.scss'
 import {Header} from './componentes/Header/Header'
 import {ItemListContainer} from './componentes/ItemListContainer/ItemListContainer'
-import { BrowserRouter , Routes , Route } from "react-router-dom"
+import {ItemDetailContainer} from "./componentes/ItemDetailContainer/ItemDetailContainer";
+import { BrowserRouter , Routes , Route, Navigate } from "react-router-dom"
 function App() {
   return (
     <BrowserRouter>
@@ -9,7 +10,10 @@ function App() {
         <Header/>
 
         <Routes>
-          <Route path="/" element={ <ItemListContainer greeting = {'Proximamente Catalogo...'} /> } />
+          <Route path="/" element={ <ItemListContainer /> }/>
+          <Route path="/productos/:categoryId" element={ <ItemListContainer /> }/>    
+          <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>   
+          <Route path="*" element={ <Navigate to="/"/> }/>
         </Routes>
       
     </BrowserRouter>

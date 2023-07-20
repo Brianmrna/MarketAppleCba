@@ -1,0 +1,47 @@
+.itemDetail{
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    background-color: white;
+    margin-top: 20px;
+    .contenedor__imagenes{
+        width: 40%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        .ImagenPrincipal{
+            align-self: top;
+            width: 80%;
+        }
+    }
+    .contenedor__detalle{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        flex-wrap: wrap;
+
+        .titulo{
+            font-size: xx-large;
+            flex-direction:row;
+            color: black;
+        }
+        .agregarCarrito{
+            width: fit-content;
+            padding:15px;
+            border-radius:30px;
+            background-color: blue;
+            color:#fff;
+            text-align:center;
+            cursor:pointer;
+            transition:.3s ease all;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    .columna{
+        width: 50%;
+        height: fit-content;
+    }
+}
