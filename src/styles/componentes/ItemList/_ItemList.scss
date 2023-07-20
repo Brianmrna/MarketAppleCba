@@ -1,0 +1,23 @@
+.contenedorCatalogo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .Titulo{
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: solid;
+        border-color: black;
+    }
+}
+.contenedor__card{
+    width: 90%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding:2rem ;
+    background:#fff;
+}

@@ -1,8 +1,7 @@
 import {valorDolar} from '../../helpers/valorDolar'
-import ItemCaract from '../ItemCaract/ItemCaract'
+
 const ItemDetail = ({item}) => {
     const dolar = valorDolar()
-    let caract = Object.getOwnPropertyNames(item.caracteristicas)
     let imgs = []
     let img = ""
     item.category.indexOf("celular") != -1
@@ -11,13 +10,13 @@ const ItemDetail = ({item}) => {
     img = imgs[0]
     return (
          <div className="itemDetail">
-            {/* <div className="contenedor__imagenes">
-                { 
-                    item.category.indexOf("celular") != -1
-                        ?<img className="ImagenPrincipal" src={item.color[img]} alt={item.nombre}/> 
-                        :<img className="ImagenPrincipal" src={item.img[1]} alt={item.nombre}/>
-                }
-            </div>
+             <div className="contenedor__imagenes">
+                 { 
+                     item.category.indexOf("celular") != -1
+                         ?<img className="ImagenPrincipal" src={item.color[img]} alt={item.nombre}/> 
+                         :<img className="ImagenPrincipal" src={item.img[1]} alt={item.nombre}/>
+                 }
+             </div>
             <div className="contenedor__detalle">
                  <h2 className="titulo">{item.nombre}</h2>
            
@@ -32,12 +31,20 @@ const ItemDetail = ({item}) => {
                          :<p>Precio: ${item.precio} (Dolares)</p>
                  }
                  <button className="agregarCarrito">Agregar</button>
-            </div> */}
-            {
-                        caract.map((element) => {
-                            return <ItemCaract key={item.id} el={element} prop={item.caracteristicas[element]}/>;
+                
+                
+                    {
+                        Object.getOwnPropertyNames(item.caracteristicas).map((element) => {
+                            return(    
+                                <div className='contenedor__detalle'>
+                                    <p className='columna'>{element}</p>
+                                    <p className='columna'>{item.caracteristicas[element]}</p>
+                                </div>)
                         })
                     } 
+                
+                
+            </div>
         </div> 
     )
 }

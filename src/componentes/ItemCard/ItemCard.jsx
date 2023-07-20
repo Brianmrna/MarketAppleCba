@@ -8,19 +8,19 @@ const ItemCard = ({item}) => {
         : imgs = []
     img = imgs[0]
     return (
-        <div className='col-3 m-2'>
-            <h4>{item.nombre}</h4>
+        <div className='Card'>
+            <h4 className="tituloCard">{item.nombre}</h4>
             { 
                 item.category.indexOf("celular") != -1
-                    ?<img src={item.color[img]} alt={item.nombre}/> 
-                    :<img src={item.img[1]} alt={item.nombre}/>
+                    ?<img className="imgCard" src={item.color[img]} alt={item.nombre}/> 
+                    :<img className="imgCard" src={item.img[1]} alt={item.nombre}/>
             }
             {
                 item.category.indexOf("celular") != -1
-                    ?<p>Precio: ${item.almacenamientoInterno.precioBase}</p>
-                    :<p>Precio: ${item.precio}</p>
+                    ?<p className="precioCard">Precio: ${item.almacenamientoInterno.precioBase}</p>
+                    :<p className="precioCard">Precio: ${item.precio}</p>
             }
-            <Link to={`/detail/${item.id}`} className='btn btn-primary'>Ver más</Link> 
+            <Link to={`/detail/${item.id}`} className='VerMas'>Ver más</Link> 
         </div>
     )
 }
