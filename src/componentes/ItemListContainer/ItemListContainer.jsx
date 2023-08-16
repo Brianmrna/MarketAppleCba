@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react"
-import {valorDolar} from "../../helpers/valorDolar"
+// import {valorDolar} from "../../helpers/valorDolar"
 import ItemList from '../ItemList/ItemList'
-import { pedirDatos } from "../../helpers/pedirDatos"
 import { useParams } from 'react-router-dom'
+import Loader from '../Loader/Loader'
+import { collection, getDocs, query, where } from 'firebase/firestore'
+import { db } from '../../firebase/config'
 
 export const ItemListContainer = () =>{
-    const dolar = valorDolar()
+    const dolar = 700
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
 
@@ -13,30 +15,36 @@ export const ItemListContainer = () =>{
     useEffect(() =>{
         setLoading(true)
 
-        pedirDatos()
-            .then(r => {
-                if (categoryId) {
-                    console.log(categoryId)
-                    setProductos( r.filter(prod => prod.category.indexOf(categoryId) != -1) )
-                    console.log(productos)
-                } else {
-                    setProductos(r)
-                }
+        const productosRef = collection(db, "productos")
+        const q = categoryId
+                    ? query(productosRef, where('category', "array-contains", categoryId) )
+                    : productosRef
+         
+        getDocs(q)
+            .then((resp) => {
+                const docs = resp.docs.map((doc) => {
+        
+                    return {
+                        id: doc.id,
+                        ...doc.data()
+                        
+                    }
+                })
+                console.log(docs)
+                setProductos(docs)
             })
             .catch(e => console.log(e))
-            .finally(() => {
-                setLoading(false)
-            })
+            .finally(() => setLoading(false))
         }, [categoryId])
     return (
-    
+
         <div className="catalogo__contenedor">
             {
                 loading
-                    ? <h2 className="cargando">Cargando...</h2>
+                    ? <Loader />
                     : <ItemList productos={productos}/>
             }
         </div>
-    
+
     )
 }
