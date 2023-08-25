@@ -17,7 +17,12 @@ const schema = Yup.object().shape({
                 .required("Este campo es obligatorio"),
     email: Yup.string()
                 .required("Este campo es obligatorio")
+                .email("El email es inválido"),
+    email_repetir: Yup.string()
+                .required("Este campo es obligatorio")
                 .email("El email es inválido")
+                .oneOf([Yup.ref('email'), null], 'Los emails no  coinciden'),
+                
 })
 
 const Checkout = () => {
@@ -64,15 +69,8 @@ const Checkout = () => {
             setOrderId(doc.id)
         } else {
             alert("Hay items sin stock")
-            console.log(outOfStock)
+            
         }
-        
-        // addDoc(ordersRef, orden)
-        //     .then((doc) => {
-        //         console.log(doc.id)
-        //         vaciarCarrito()
-        //         setOrderId(doc.id)
-        //     })
         setLoading(false)
     }
 
@@ -82,8 +80,8 @@ const Checkout = () => {
                 <h2 className="text-4xl">Tu compra se registró exitosamente!</h2>
                 <hr/>
                 <p>Tu número de orden es: <strong>{orderId}</strong></p>
-
-                <Link to="/">Volver</Link>
+                <Link to={`/detalleCompra/${orderId}`} className="btn btn-success">Ver detalle de la compra</Link>
+                <Link to="/"className="btn mx-2 btn-primary">Volver</Link>
             </div>
         )
     }
@@ -101,7 +99,9 @@ const Checkout = () => {
                 initialValues={{
                     nombre: '',
                     direccion: '',
-                    email: ''
+                    email: '',
+                    email_repetir: '',
+                    telefono:''
                 }}
                 onSubmit={handleSubmit}
                 validationSchema={schema}
@@ -112,9 +112,13 @@ const Checkout = () => {
                         <ErrorMessage name="nombre" component="p"/>
                         <Field placeholder="Tu direccion" className="form-control my-2" type="text" name="direccion"/>
                         <ErrorMessage name="direccion" component="p"/>
+                        <Field placeholder="Telefono" className="form-control my-2" type="text" name="telefono"/>
+                        <ErrorMessage name="telefono" component="p"/>
                         <Field placeholder="Tu email" className="form-control my-2" type="email" name="email"/>
                         <ErrorMessage name="email" component="p"/>
-                        <button className="btn btn-success" disabled={loading}>Enviar</button>
+                        <Field placeholder="Vuelve a ingresar el email" className="form-control my-2" type="email" name="email_repetir"/>
+                        <ErrorMessage name="email_repetir" component="p"/>
+                        <button  className="btn btn-success" disabled={loading}>Enviar</button>
                     </Form>
                 )}
             </Formik>

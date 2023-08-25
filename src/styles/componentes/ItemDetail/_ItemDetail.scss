@@ -1,6 +1,8 @@
 .itemDetail{
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 90%;
     background-color: white;
     margin-top: 20px;
@@ -9,9 +11,14 @@
         flex-direction: column;
         display: flex;
         justify-content: center;
+        align-items: center;
         .ImagenPrincipal{
-            align-self: top;
-            width: 80%;
+            min-width: 20rem;
+            cursor: pointer !important;
+            
+        }
+        .selectImagen{
+            justify-content: center;
         }
     }
     .contenedor__detalle{
@@ -39,6 +46,35 @@
                 transform: scale(1.1);
             }
         }
+    }
+    .table{
+        width:80%;
+        align-self:center;
+        table, th , td{
+            border : solid #ccc ;
+            border-width: thin;
+            text-align: left;
+            }
+            .Titulo{
+                font-weight: bold;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+            }
+            .Detalle{
+                min-height: 50px;
+                height:fit-content !important;
+                .DetalleTitulo{
+                    font-weight: bold;
+                    text-align: center;
+                    align-content: center;
+                    padding: 1rem;
+                }
+                .DetalleTexto{
+                    text-align: justify;
+                    padding: 1rem;
+                    
+                }
+            }
     }
     .columna{
         width: 100%;

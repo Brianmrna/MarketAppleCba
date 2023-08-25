@@ -1,0 +1,27 @@
+.CartView{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .producto_carrito{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        h3{
+            font-size: 18px !important;
+            color:#02596f!important;
+
+        }
+        .imgCard{
+            width:4rem;
+            height:auto;
+            border-radius:.7em;
+            flex-direction: column;
+        }
+        .precio{
+            margin-top:-1%;
+        }
+        .cantidad{
+            text-align: center;
+        }
+    }
+}

@@ -1,33 +1,16 @@
-.Card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    height: 40vh;
-    background-color: aqua;
-    margin: 20px;
-    gap: 20px;
-    .VerMas{
-        flex-direction: row;
-        width: fit-content;
-        padding:15px;
-        border-radius:30px;
-        background-color: blue;
-        color:#fff;
-        text-align:center;
-        cursor:pointer;
-        transition:.3s ease all;
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
-    .imgCard{
-        width:100px;
-        height: fit-content;
-        flex-direction: row;
-    }
-    .tituloCard{
-        flex-direction: row;
-    }
+.card{
+    width: 18rem;
+}
+.card-title{
+    font-size:20px !important ;
+    font-weight: 700;
+    margin-bottom : .5em!important;;
+    text-align: center;
+
+}
+.card-body{
+    padding:.3em  4%   6%;
+    background:#f9fbff; 
+    border-radius: 10px;
+    
 }

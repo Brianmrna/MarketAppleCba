@@ -1,7 +1,7 @@
 import { clases } from "../../helpers/utils"
 
 
-const ItemCount = ({max, cantidad, setCantidad, agregar}) => {
+const ItemCount = ({max, cantidad, setCantidad, agregar }) => {
     const handleRestar = () => {
         cantidad > 1 && setCantidad(cantidad - 1)
     }
@@ -38,8 +38,10 @@ const ItemCount = ({max, cantidad, setCantidad, agregar}) => {
             </button>
 
             <br/>
+            
             <button onClick={agregar} className="btn btn-success my-2">Agregar</button>
-
+            
+           
         </div>
     )
 }

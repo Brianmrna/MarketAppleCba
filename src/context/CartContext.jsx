@@ -30,6 +30,21 @@ export const CartProvider = ({children}) => {
     const vaciarCarrito = () => {
         setCart([])
     }
+    const actualizarCantidad = (id,op) =>{
+         op
+            ? setCart(cart.map(item => {
+                if(id === item.id){
+                     item.cantidad < item.stock && item.cantidad ++
+                }
+                return item
+            }))
+            : setCart( cart.map(item =>{
+                if(id === item.id){ 
+                     item.cantidad > 1 && item.cantidad --
+                }
+                return item
+            }))
+    }
 
     useEffect(() => {
         localStorage.setItem('cart', JSON.stringify(cart))
@@ -43,7 +58,8 @@ export const CartProvider = ({children}) => {
             totalCompra,
             vaciarCarrito,
             totalCantidad,
-            removerDelCarrito
+            removerDelCarrito,
+            actualizarCantidad
         }}>
             {children}
         </CartContext.Provider>

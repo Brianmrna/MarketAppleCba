@@ -12,8 +12,6 @@ export const ItemDetailContainer = () => {
 
     const { itemId } = useParams()
 
-    console.log(itemId)
-    console.log(item)
 
     useEffect(() => {
         const itemRef = doc(db, "productos", itemId)

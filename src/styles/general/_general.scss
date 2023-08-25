@@ -7,6 +7,18 @@
     word-wrap: break-word !important;
     word-break: break-word !important;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.CartProvider{
+    height: 100%;
+}
+.BrowserRouter{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Footer{
+    position: relative;
+    bottom : 0px;
+    margin-top: auto;
+    width: 100%;
+    background-color: blueviolet !important;
+}

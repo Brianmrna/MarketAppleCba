@@ -7,11 +7,14 @@ import { CartProvider } from "./context/CartContext"
 import CartView from "./componentes/CartView/CartView"
 import Checkout from "./componentes/Checkout/Checkout"
 import Footer from "./componentes/Footer/Footer"
+import "./styles/styles.scss"
+import Detallecompra from "./componentes/DetalleCompra/Detallecompra"
+
 function App() {
 
   return (
-<CartProvider>
-  <BrowserRouter>
+<CartProvider className='CartProvider'>
+  <BrowserRouter className='BrowserRouter'>
       <Header />        
       <Routes>
         <Route path="/" element={ <ItemListContainer /> }/>
@@ -19,11 +22,11 @@ function App() {
         <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
         <Route path="/cart" element={ <CartView /> }/>
         <Route path="/checkout" element={ <Checkout /> }/>
+        <Route path="/detalleCompra/:orderId" element={<Detallecompra/>}/>
         <Route path="*" element={ <Navigate to="/"/> }/>
       </Routes>
-
-      <Footer /> 
   </BrowserRouter>
+  
 </CartProvider>
   )
 }
