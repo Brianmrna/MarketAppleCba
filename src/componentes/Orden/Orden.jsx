@@ -4,7 +4,6 @@ import Logo from '/MarketAppleCba-Logo.svg'
 
 
 const Orden = ({order}) => {
-    console.log(order)
     const Fecha = Date(order.fyh.toString())
   return (
    <div className='d-flex justify-content-center flex-wrap'>
